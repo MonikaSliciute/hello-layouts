@@ -16,9 +16,10 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Container(
-              margin: EdgeInsets.all(100.0),
-              width: 200.0,
-              height: 200.0,
+              margin: EdgeInsets.all(50.0),
+              width: 300.0,
+              height: 300.0,
+              child: FlutterLogo(),
               decoration: BoxDecoration(
                 color: Colors.orange,
                 gradient: RadialGradient(
