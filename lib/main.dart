@@ -22,10 +22,6 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.orange,
                 shape: BoxShape.rectangle,
-                borderRadius: BorderRadius.all(Radius.circular(50.0)),
-                gradient: LinearGradient(
-                  colors: [Colors.pink.shade50, Colors.pink.shade500],
-                ),
                 image: DecorationImage(
                   image: NetworkImage('http://bit.ly/flutter_tiger'),
                 ),
