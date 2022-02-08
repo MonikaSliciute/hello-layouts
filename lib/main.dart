@@ -22,17 +22,6 @@ class MyApp extends StatelessWidget {
               child: FlutterLogo(),
               decoration: BoxDecoration(
                 color: Colors.orange,
-                gradient: RadialGradient(
-                  tileMode: TileMode.clamp,
-                  radius: 0.25,
-                  center: Alignment(0.0, 0.5),
-                  colors: [
-                    Colors.blue,
-                    Colors.green,
-                    Colors.deepPurple,
-                    Colors.pink
-                  ],
-                ),
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadius.all(Radius.circular(50.0)),
               ),
