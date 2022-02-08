@@ -26,6 +26,9 @@ class MyApp extends StatelessWidget {
                 gradient: LinearGradient(
                   colors: [Colors.pink.shade50, Colors.pink.shade500],
                 ),
+                image: DecorationImage(
+                  image: NetworkImage('http://bit.ly/flutter_tiger'),
+                ),
               ),
             ),
           ],
