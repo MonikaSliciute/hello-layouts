@@ -17,13 +17,14 @@ class MyApp extends StatelessWidget {
           children: [
             Container(
               margin: EdgeInsets.all(50.0),
-              width: 300.0,
-              height: 300.0,
+              width: 400.0,
+              height: 600.0,
               decoration: BoxDecoration(
                 color: Colors.orange,
                 shape: BoxShape.rectangle,
                 image: DecorationImage(
                   image: NetworkImage('http://bit.ly/flutter_tiger'),
+                  fit: BoxFit.contain,
                 ),
               ),
             ),
