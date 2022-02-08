@@ -22,7 +22,9 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.orange,
                 shape: BoxShape.rectangle,
-                borderRadius: BorderRadius.all(Radius.circular(30.0)),
+                borderRadius: BorderRadius.only(
+                    topLeft: Radius.circular(25.0),
+                    bottomRight: Radius.circular(25.0)),
               ),
             ),
           ],
