@@ -8,6 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        brightness: Brightness.dark,
+        primaryColor: Color(0xFF009688),
+        accentColor: Color(0xFF7C4DFF),
+      ),
       home: Scaffold(
         appBar: AppBar(
           title: Text("Building layouts with Flutter"),
