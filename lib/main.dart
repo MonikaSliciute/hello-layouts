@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           color: Colors.orange,
+          child: Text("Hello Container"),
         ),
       ),
     );
