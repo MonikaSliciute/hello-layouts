@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.orange,
                 gradient: RadialGradient(
                   tileMode: TileMode.clamp,
+                  radius: 0.25,
                   colors: [
                     Colors.blue,
                     Colors.green,
