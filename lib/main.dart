@@ -22,6 +22,8 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.orange,
                 gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
                   colors: [Colors.purple.shade50, Colors.purple.shade500],
                 ),
                 shape: BoxShape.rectangle,
