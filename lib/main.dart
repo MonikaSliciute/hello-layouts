@@ -21,10 +21,11 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               decoration: BoxDecoration(
                 color: Colors.orange,
+                gradient: LinearGradient(
+                  colors: [Colors.purple.shade50, Colors.purple.shade500],
+                ),
                 shape: BoxShape.rectangle,
-                borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(25.0),
-                    bottomRight: Radius.circular(25.0)),
+                borderRadius: BorderRadius.all(Radius.circular(50.0)),
               ),
             ),
           ],
