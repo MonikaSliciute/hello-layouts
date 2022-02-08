@@ -17,11 +17,12 @@ class MyApp extends StatelessWidget {
           children: [
             Container(
               margin: EdgeInsets.all(100.0),
-              width: 100.0,
-              height: 100.0,
+              width: 200.0,
+              height: 200.0,
               decoration: BoxDecoration(
                 color: Colors.orange,
-                shape: BoxShape.circle,
+                shape: BoxShape.rectangle,
+                borderRadius: BorderRadius.all(Radius.circular(30.0)),
               ),
             ),
           ],
