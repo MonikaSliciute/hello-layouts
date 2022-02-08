@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           children: [
             Container(
+              margin: EdgeInsets.all(100.0),
               color: Colors.orange,
               width: 100.0,
               height: 100.0,
