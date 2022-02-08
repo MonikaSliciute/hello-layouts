@@ -22,10 +22,14 @@ class MyApp extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.orange,
                 gradient: LinearGradient(
-                  begin: Alignment(0.0, -1.0),
-                  end: Alignment(0.0, -0.8),
-                  tileMode: TileMode.mirror,
-                  colors: [Colors.purple.shade50, Colors.purple.shade500],
+                  tileMode: TileMode.clamp,
+                  stops: [0.5, 0.6, 0.7, 0.8],
+                  colors: [
+                    Colors.blue,
+                    Colors.green,
+                    Colors.deepPurple,
+                    Colors.pink
+                  ],
                 ),
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadius.all(Radius.circular(50.0)),
