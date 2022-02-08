@@ -23,7 +23,8 @@ class MyApp extends StatelessWidget {
                 color: Colors.orange,
                 gradient: LinearGradient(
                   begin: Alignment(0.0, -1.0),
-                  end: Alignment(0.0, 1.0),
+                  end: Alignment(0.0, -0.8),
+                  tileMode: TileMode.mirror,
                   colors: [Colors.purple.shade50, Colors.purple.shade500],
                 ),
                 shape: BoxShape.rectangle,
