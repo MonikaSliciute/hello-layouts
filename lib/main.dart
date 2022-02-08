@@ -21,9 +21,8 @@ class MyApp extends StatelessWidget {
               height: 200.0,
               decoration: BoxDecoration(
                 color: Colors.orange,
-                gradient: LinearGradient(
+                gradient: RadialGradient(
                   tileMode: TileMode.clamp,
-                  stops: [0.5, 0.6, 0.7, 0.8],
                   colors: [
                     Colors.blue,
                     Colors.green,
