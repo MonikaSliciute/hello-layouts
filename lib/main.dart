@@ -23,6 +23,11 @@ class MyApp extends StatelessWidget {
             onPressed: () {
               print("You rang?");
             }),
+        persistentFooterButtons: <Widget>[
+          IconButton(onPressed: () {}, icon: Icon(Icons.add_comment)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.add_alarm)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.add_location)),
+        ],
       ),
     );
   }
