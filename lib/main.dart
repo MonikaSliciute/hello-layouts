@@ -13,9 +13,14 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Container'),
         ),
-        body: Container(
-          color: Colors.orange,
-          child: Text("Hello Container"),
+        body: Column(
+          children: [
+            Container(
+              color: Colors.orange,
+              width: 100.0,
+              height: 100.0,
+            ),
+          ],
         ),
       ),
     );
