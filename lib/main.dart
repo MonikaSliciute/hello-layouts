@@ -19,11 +19,13 @@ class MyApp extends StatelessWidget {
               margin: EdgeInsets.all(50.0),
               width: 300.0,
               height: 300.0,
-              child: FlutterLogo(),
               decoration: BoxDecoration(
                 color: Colors.orange,
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadius.all(Radius.circular(50.0)),
+                gradient: LinearGradient(
+                  colors: [Colors.pink.shade50, Colors.pink.shade500],
+                ),
               ),
             ),
           ],
