@@ -18,6 +18,11 @@ class MyApp extends StatelessWidget {
             style: TextStyle(fontSize: 24),
           ),
         ),
+        floatingActionButton: FloatingActionButton(
+            child: Icon(Icons.lightbulb_outline),
+            onPressed: () {
+              print("You rang?");
+            }),
       ),
     );
   }
