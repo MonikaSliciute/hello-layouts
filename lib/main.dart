@@ -12,6 +12,12 @@ class MyApp extends StatelessWidget {
         brightness: Brightness.dark,
         primaryColor: Color(0xFF009688),
         accentColor: Color(0xFF7C4DFF),
+        textTheme: TextTheme(
+          bodyText2: TextStyle(
+            fontSize: 24,
+            fontStyle: FontStyle.italic,
+          ),
+        ),
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -20,7 +26,6 @@ class MyApp extends StatelessWidget {
         body: Center(
           child: Text(
             "Hello Flutter Layouts",
-            style: TextStyle(fontSize: 24),
           ),
         ),
         floatingActionButton: FloatingActionButton(
